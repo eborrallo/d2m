@@ -1,0 +1,36 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "wei",
+      "name": "Wei He",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5880908?v=4",
+      "profile": "https://whe.me",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "ideas"
+      ]
+    },
+    {
+      "login": "zeke",
+      "name": "Zeke Sikelianos",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2289?v=4",
+      "profile": "http://zeke.sikelianos.com",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "pull-request",
+  "projectOwner": "repo-sync",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
