@@ -1,7 +1,7 @@
 on:
-  push:
+  merge:
     branches:
-    - "feature/*"  # Support wildcard matching
+    - "hotfix*"  # Support wildcard matching
 
 jobs:
   pull-request:
