@@ -1,7 +1,7 @@
 on:
   pull_request:
     branches:
-    - "hotfix*"  # Support wildcard matching
+    - "master"  # Support wildcard matching
 
 jobs:
   pull-request:
