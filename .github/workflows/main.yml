@@ -11,8 +11,8 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        source_branch: "develop"                     # If blank, default: triggered branch
-        destination_branch: "master"          # If blank, default: master
+        source_branch: "master"                     # If blank, default: triggered branch
+        destination_branch: "develop"          # If blank, default: master
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - uses: hmarr/auto-approve-action@v2.0.0
       if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
